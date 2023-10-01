@@ -12,22 +12,22 @@ const Recommended = ({ handleClick }) => {
                 </button>
                 <button
                     onClick={handleClick}
-                    value="nike"
+                    value="Nike"
                     className='px-5 py-2 bg-slate-300 rounded font-semibold hover:bg-slate-400'>
                     Nike
                 </button>
                 <button onClick={handleClick}
-                    value="adidas"
+                    value="Adidas"
                     className='px-5 py-2 bg-slate-300 rounded font-semibold hover:bg-slate-400'>
                     Adidas
                 </button>
                 <button onClick={handleClick}
-                    value="puma"
+                    value="Puma"
                     className='px-5 py-2 bg-slate-300 rounded font-semibold hover:bg-slate-400'>
                     Puma
                 </button>
                 <button onClick={handleClick}
-                    value="vans"
+                    value="Vans"
                     className='px-5 py-2 bg-slate-300 rounded font-semibold hover:bg-slate-400'>
                     Vans
                 </button>

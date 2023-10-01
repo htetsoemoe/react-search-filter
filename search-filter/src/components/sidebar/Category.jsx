@@ -6,7 +6,7 @@ const Category = ({ handleChange }) => {
             <div className="flex flex-col w-48 gap-2 bg-slate-200 rounded-lg pl-5 p-3 mb-3">
                 <h1 className="text-xl font-bold mb-2">Category</h1>
                 <div className="flex gap-2 font-semibold">
-                    <input onChange={handleChange} type="radio" name="test" value="all" id="all" />
+                    <input onChange={handleChange} type="radio" name="test" value="" id="all" />
                     <label htmlFor='all' className="">All</label>
                 </div>
 
